@@ -8,7 +8,7 @@ function Main(){
         <>
         <main className={passedValues.theme} >
             <div id='maintop' >
-                <img src='../../../public/img/Bitmap.png'/>
+                <img src='/img/Bitmap.png'/>
                 <div className='describetop'>
                     <h3>the Octocat</h3>
                     <label>@octocat</label>
