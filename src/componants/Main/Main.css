@@ -72,8 +72,8 @@ main{
     border-radius: 10px;
     padding:  10px 20px;
     width: 75%;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 
 }
 .link{
@@ -102,6 +102,7 @@ main{
     #maintop{
         position: relative;
         width: 350px;
+        left: 20px;
         height: auto;
         column-gap: 10px;
     }
@@ -116,6 +117,9 @@ main{
     #links{
         padding-left: 5px;
         width: auto;
+        flex-wrap: nowrap;
+        display: flex;
+         align-items: center;
 
     }
     .link{
