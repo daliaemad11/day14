@@ -117,14 +117,22 @@ main{
     #links{
         padding-left: 5px;
         width: auto;
+        width: 100%;
         flex-wrap: nowrap;
         display: flex;
          align-items: center;
+         flex-direction: column;
+         justify-content: start;
+         row-gap: 20px;
 
     }
     .link{
-        margin-left: 0px;
         width: 100%;
+        width: 100%;
+        margin: 0;
+        
+        justify-content: start;
+        margin-left: 70px;
     }
     .num{
         margin-left: 10px;
