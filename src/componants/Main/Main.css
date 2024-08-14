@@ -16,7 +16,9 @@ main{
 #maintop{
     display: flex;
     align-items: start;
+    justify-content: center;
     column-gap: 20px;
+    width: auto;
     box-sizing: border-box;
     padding: 20px;
 }
@@ -88,31 +90,39 @@ main{
     #date{
         position:absolute;
         top: 60px;
-        left: 110px;
+        left: 100px;
         width: auto;
     }
     #maintop img{
-        width: 80px;
+        width: 65px;
+    }
+    #maintop p{
+        width: 80%;
     }
     #maintop{
         position: relative;
         width: 350px;
-        padding-bottom: 0;
+        height: auto;
         column-gap: 10px;
     }
     #follownum{
         height: 60px;
         width: 80%;
+        padding: 0;
     }
     .follow{
         font-size: 20px;
     }
     #links{
-        padding-left: 0;
+        padding-left: 5px;
+        width: auto;
 
     }
     .link{
         margin-left: 0px;
         width: 100%;
+    }
+    .num{
+        margin-left: 10px;
     }
 }
