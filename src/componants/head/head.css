@@ -1,0 +1,13 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color:transparent;
+    box-sizing: border-box;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+#header.dark{
+    background-color:  #1E2A47;
+}

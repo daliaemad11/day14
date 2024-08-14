@@ -1,0 +1,27 @@
+#body{
+    width: 730px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color:transparent;
+    row-gap: 15px;
+    height: 600px;
+}
+#maindiv.dark{
+    background-color: #141D2F;
+}
+#maindiv{
+    width: 100%;
+    height: 100%;
+    background-color:#F6F8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:475px) {
+   #body{
+    width: 80%;
+    height: auto;
+    }
+    
+}
